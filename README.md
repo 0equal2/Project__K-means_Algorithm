@@ -8,7 +8,7 @@
 
 #### Step of K-means
 
-![k-means step](result image/k-means step.PNG)
+![k-means step](https://github.com/0equal2/Project__K-means-Algorithm/blob/0c0c58ee8433395991c7e93c9a684149fef1a3a2/result_image/k-means%20step.png)
 >http://stanford.edu/~cpiech/cs221/img/kmeansViz.png
 
 
