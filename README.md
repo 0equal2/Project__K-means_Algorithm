@@ -1,4 +1,4 @@
-# Project__K-means-Algorithm
+# Project__K-means_Algorithm
 기본적인 K-means Algorithm 단계를 Naive하게 구현해보면서 이해하는 것을 목표로 한다. 
 
 [k-means 이론 정리 ](https://0equal2.tistory.com/139)  
