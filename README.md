@@ -61,6 +61,8 @@ for i in range(n):
     y_values.append(y)
 
 ```
+  
+       
 ## a. 초기 분포 상태 
 ```python
 #2. K-means 클러스터링 시작 
@@ -72,7 +74,10 @@ plt.show()
   
 ![result2-a](https://github.com/0equal2/Project__K-means-Algorithm/blob/ca797b5acf60717f7df8c12f74ae2deb368a150a/result_image/2-a%20result.png)
 
-
+  
+  
+  
+  
 ## b. 초기에 k개의 중심값 선정 
 앞에서 임으로 2개의 클러스터 분류로 랜덤하게 데이터를 생성하였다. 실제로는 적당한 클러스터의 개수를 찾아나가야하는 것이 맞다.
 ```python
@@ -99,6 +104,8 @@ plt.show()
 ![result2-b](https://github.com/0equal2/Project__K-means-Algorithm/blob/ca797b5acf60717f7df8c12f74ae2deb368a150a/result_image/2-b%20result.png)  
   
 임의로 선정된 중심값 k를 붉은 'x'로 표시
+  
+  
   
 ## c. 각 데이터들은 k개의 중심값들에서 가장 가까운 중심값을 찾아 같은 클러스터로 묶임
 
@@ -132,7 +139,10 @@ plt.show()
 
 ```
 ![result2-c](https://github.com/0equal2/Project__K-means-Algorithm/blob/ca797b5acf60717f7df8c12f74ae2deb368a150a/result_image/2-c%20result.png)  
-
+  
+  
+  
+  
 ## d. 같은 클러스터내 데이터들의 평균값으로 중심값 재조정
 ```python
 #2-d. 같은 클러스터내 데이터들의 평균값으로 중심값 재조정
@@ -147,10 +157,15 @@ plt.show()
 
 ```
 ![result2-d]https://github.com/0equal2/Project__K-means-Algorithm/blob/ca797b5acf60717f7df8c12f74ae2deb368a150a/result_image/2-d%20result.png)
-
+  
+  
+  
+  
 ## e. 재조정 된 중심값을 기준으로 재클러스터링을 진행  
 (c)부터 다시 시작  
 
+  
+  
   
 ## r. (c)~(e)를 반복하며 더이상의 중심값 이동이 없을 경우 클러스터링 중단
 ```python
